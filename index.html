@@ -1,11 +1,273 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Varela&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>A website about the mistakes the author made as a beginner programmer.</title>
+</head>
 
 <body>
+    <div class="home-section-text">
+        <h1 class="the-first-h1">The Mistakes I Made As a Beginner<br> Programmer</h1><br>
+        <p>Learn to identify them, make habits to avoid them</p><br>
+        <img src="images/1_VWm67Y5nT9RR0zLGr-aMVQ.jpeg" alt="Some old guys talking with each other."><br>
+    </div>
+    <main>
+
+        <blockquote class="first-box-quote">
+            <p>
+                <em><strong>Update:</strong> This article is now part of my book “The Professional Programmer”.</em>
+            </p><br>
+            <p>
+                <em>Read the updated version of this content, and more programming advice at <a
+                        href="https://jscomplete.com/learn/pro-programmer"> jscomplete.com/pro-programmer.</a></em>
+            </p>
+
+        </blockquote><br>
+        <div class="first-block">
+            <p>
+                Let me make one thing clear first. If you are a beginner programmer, this article is not meant to make
+                you feel bad about the mistakes that you might be making but rather to make you aware of them, teach you
+                to spot signs of them, and remind you to avoid them.</p><br>
+
+            <p>
+                I have made these mistakes in the past and learned from each and every one of them. I am happy to have
+                formed coding habits to help me avoid them. You should do too.</p><br>
+
+            <p>
+                These mistakes are not presented here in any particular order.
+            </p>
+        </div>
+        <div class="the-blocks">
+            <h1>1) Writing Code Without Planning</h1><br>
+            <p>
+                High-quality written content, in general, cannot be created easily. It requires careful thinking and
+                research. High-quality programs are no exception.</p><br>
+            <p>
+                Writing quality programs is a process with a flow:
+                <strong>Think. Research. Plan. Write. Validate. Modify.</strong>
+                Unfortunately, there is no good acronym for this. You need to create a habit to always go through the
+                <em>right</em> amount of these activities.</p><br>
+            <p>
+                One of the biggest mistakes I have made as a beginner programmer was to start writing code right away
+                without much thinking and researching. While this might work for a small stand-alone application, it
+                has a big, negative effect on larger applications.
+            </p><br>
+            <p>
+                Just like you need to think before saying anything you might regret, you need to think before you code
+                anything you might regret. Coding is also a way to communicate your thoughts.
+            </p>
+            <blockquote class="quote">
+                When angry, count to 10 before you speak. If very angry, a hundred.<br>
+
+                -Thomas Jefferson.
+
+            </blockquote>
+            <p>Here is my version of that quote:</p><br>
+            <blockquote class="quote">
+                When reviewing code, count to 10 before you refactor a line. If the code does not have tests, a
+                hundred.<br>
+
+                — Samer Buna
+            </blockquote>
+            <p>
+                Programming is mostly about reading previous code, researching what is needed and how it fits within
+                the
+                current system, and planning the writing of features with small, testable increments. The actual
+                writing
+                of lines of code is probably only 10% of the whole process.
+            </p><br>
+            <p>
+                Do not think about programming as writing lines of code. Programming is a logic-based creativity
+                that
+                needs nurturing.
+        </div>
+        <div class="the-blocks">
+            <h1>2) Planning Too Much Before Writing Code</h1><br>
+            <p>
+                Yes. Planning before jumping into writing code is a good thing, but even good things can hurt you when
+                you do too much of them. Too much water might poison you.
+            </p><br>
+            <p>
+                Do not look for a perfect plan. That does not exist in the world of programming. Look for a good-enough
+                plan, something that you can use to get started. The truth is, your plan will change, but what it was
+                good for is to force you into some structure that leads to more clarity in your code. Too much planning
+                is simply a waste of your time.
+            </p><br>
+            <p>
+                I am only talking about planning small features. Planning all the features at once should simply be
+                outlawed! It is what we call the Waterfall Approach, which is a system linear plan with distinct steps
+                that are to be finished one by one. You can imagine how much planning that approach needs. This is not
+                the kind of planning I am talking about here. The waterfall approach does not work for most software
+                projects. Anything complicated can only be implemented with agile adaptations to reality.
+            </p><br>
+            <p>
+                Writing programs has to be a responsive activity. You will add features you would never have thought of
+                in a waterfall plan. You will remove features because of reasons you would never have considered in a
+                waterfall plan. You need to fix bugs and adapt to changes. You need to be agile.
+            </p><br>
+            <p>
+                However, always plan your next few features. Do that very carefully because too little planning and too
+                much planning can both hurt the quality of your code, and the quality of your code is not something you
+                can risk.
+            </p>
+
+        </div>
+        <div class="the-blocks">
+            <h1>3) Underestimating the Importance of Code Quality</h1><br>
+            <p>
+                If you can only focus on one aspect of the code that you write, it should be its
+                <strong>readability.</strong> Unclear
+                code is trash. It is not even recyclable.
+            </p><br>
+            <p>
+                Never underestimate the importance of code quality. Look at coding as a way to communicate
+                implementations. Your main job as a coder is to clearly communicate the implementations of any solutions
+                that you are working on.
+            </p><br>
+            <p>
+                One of my favorite quotes about programming is:
+            </p>
+            <blockquote class="quote">
+                Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where
+                you live.<br>
+                — John Woods
+            </blockquote>
+            <p>
+                <strong>Brilliant advice, John!</strong>
+            </p><br>
+            <p>
+                Even the small things matter. For example, if you are not consistent with your indentation and
+                capitalization, you should simply lose your license to code.
+            </p>
+            <div class="code-block">
+
+
+            </div>
+            <p>
+                Another simple thing is the use of long lines. Anything beyond 80 characters is much harder to read. You
+                might be tempted to place some long condition on the same line to keep an if-statement block more
+                visible. Do not do that. Just never go beyond the 80 character limit, ever.
+            </p><br>
+            <p>
+                Many of the simple problems like these can be easily fixed with <strong>linting</strong> and
+                <strong>formatting</strong>
+                tools. In
+                JavaScript, we have two excellent tools that work perfectly together: <strong>ESLint</strong> and
+                <strong>Prettier.</strong> Do yourself a
+                favor and always use them.
+            </p><br>
+            <p>
+                Here are a few more mistakes related to code quality:
+            </p><br>
+            <p>
+                — Using many lines in a function or a file. You should always break long code into smaller chunks that
+                can be tested and managed separately. I personally think that any function that has more than 10 lines
+                is just too long, but this is just a rule of thumb.
+            </p><br>
+            <p>
+                — Using double negatives. Please do not not not do that.
+            </p><br>
+            <blockquote class="quote">
+                Using double negatives is just very not not wrong
+            </blockquote>
+            <p>
+                — Using short, generic, or type-based variable names. Give your variables descriptive and non-ambiguous
+                names.
+                <blockquote class="quote">
+                    There are only two hard things in Computer Science: cache invalidation and naming things.<br>
+
+                    — Phil Karlton
+                </blockquote>
+                <p>
+                    — Hard-coding primitive strings and numbers without descriptions. If you want to write logic that
+                    depends on a fixed primitive string or number value, put that value in a constant and give it a good
+                    name.
+
+                </p>
+                <div class="code-block">
+
+                </div>
+                <p>
+                    — Using sloppy shortcuts and workarounds to avoid spending more time around simple problems. Do not
+                    dance around problems. Face your realities.
+                </p><br>
+                <p>
+                    — Thinking that longer code is better. Shorter code is better in most cases. Only write longer
+                    versions if they make the code more readable. For example, do not use clever one-liners and nested
+                    ternary expressions just to keep the code shorter, but also do not intentionally make the code
+                    longer when it does not need to be. Deleting unnecessary code is the best thing you can do in any
+                    program.
+                </p><br>
+                <blockquote class="quote">Measuring programming progress by lines of code is like measuring aircraft
+                    building progress
+                    by weight.<br>
+
+                    — Bill Gates
+
+                </blockquote>
+                <p>
+                    — The excessive use of conditional logic. Most of what you think needs conditional logic can be
+                    accomplished without it. Consider all the alternatives and pick exclusively based on readability. Do
+                    not optimize for performance unless you can measure. Related: avoid <strong><a
+                            href="https://en.wikipedia.org/wiki/Yoda_conditions">Yoda conditions</a></strong>
+                    and assignments
+                    within conditionals.
+                </p>
+
+        </div>
+        <div class="the-blocks">
+            <h1>4) Picking the First Solution</h1><br>
+            <p>
+                When I was starting to program, I remember that when I got presented with a problem, I would find a
+                solution and just immediately run with it. I would rush the implementation right away before thinking
+                about the complexities and potential failures of my first identified solution.
+            </p><br>
+            <p>
+                While the first solution might be tempting, the good solutions are usually discovered once you start
+                questioning all the solutions that you find. If you cannot think of multiple solutions to a problem,
+                that is probably a sign that you do not completely understand the problem.
+            </p><br>
+            <p>
+                Your job as a professional programmer is not to find a solution to the problem. It is to find the
+                <strong>simplest</strong> solution to the problem. By “simple” I mean the solution has to work correctly
+                and perform
+                adequately but still be simple enough to read, understand, and maintain.
+            </p><br>
+            <blockquote class="quote">
+                There are two ways of constructing a software design. One way is to make it so simple that there are
+                obviously no deficiencies, and the other way is to make it so complicated that there are no obvious
+                deficiencies.<br>
+                — C.A.R. Hoare
+            </blockquote>
+        </div>
+        <div class="the-blocks">
+            <h1>5) Not Quitting</h1><br>
+            <p>
+                Another mistake that I have made more often than I cared to admit is sticking with the first solution
+                even after I identify that it might not be the simplest approach. This is probably psychologically
+                related to the <strong>“not-quitting”</strong> mentality. This is a good mentality to have in most
+                activities, but it
+                should not apply to programming. In fact, when it comes to writing programs, the right mentality is
+                <strong>fail
+                    early and fail often.</strong>
+            </p>
+            <p>
+                The minute you begin doubting a solution, you should consider throwing it away and re-thinking the
+                problem. This is true no matter how much you were invested in that solution. Source control tools like
+                GIT can help you branch off and experiment with many different solutions. Leverage that.
+            </p>
+            <blockquote class="quote">
+                Do not be attached to code because of how much effort you put into it. Bad code needs to be discarded.
+
+            </blockquote>
+        </div>
+    </main>
 
 </body>
-</head>
 
 </html>

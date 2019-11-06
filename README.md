@@ -1,0 +1,5 @@
+--please check my indentation
+--please give me a feedback on the semantic elements
+--check if the font for the h1 is fitting to the original website
+--i made h1 for the 5 points, instead of h2, do you think thats ok?
+--cheers
